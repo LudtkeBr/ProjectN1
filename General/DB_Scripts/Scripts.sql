@@ -37,3 +37,7 @@ SET LINESIZE 200
 --Comando para mostrar o user conectado
 
 SHOW USER;
+
+-- Haabilitar messageria no oracle
+
+set serveroutput on;
