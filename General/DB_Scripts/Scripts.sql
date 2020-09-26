@@ -42,6 +42,6 @@ SHOW USER;
 
 set serveroutput on;
 
--- retorna caso tenha erro (Ex:uso para um loop).
+-- retorna um erro (Ex:uso para um loop).
 
  raise_application_error (-20001, 'ERRO - SAIDA INESPERADA'); 
